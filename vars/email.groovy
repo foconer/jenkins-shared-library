@@ -1,3 +1,3 @@
-def call(String to, String message){
-  emailext body: ${message}, subject: 'Jenkins Pipeline', to: ${to}
+def call(String to){
+  emailext body: 'test'', subject: 'Jenkins Pipeline', to: ${to}
 }
